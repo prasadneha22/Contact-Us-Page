@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 50px;
+    height: calc(100vh-82px);
+}
+.top-btn{
+    display: flex;
+    gap: 32px;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.form-item{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    
+}
+.form-item input{
+    height: 40px;
+    padding: 0 8px;
+}
+.form-item label{
+    position: absolute;
+    top: -12px;
+    left: 10px;
+    background-color: white;
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.main-image img{
+    height: 465px;
+    width: 480px;
+}
